@@ -19,6 +19,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func onClickToTableButton(_ sender: UIButton) {
+        self.navigationController?.pushViewController(ZYVariousCellsViewController(), animated: true)
+    }
 
 
 }

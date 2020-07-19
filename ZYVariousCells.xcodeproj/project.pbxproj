@@ -12,6 +12,18 @@
 		187E2B4024C3384800C3707F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E2B3E24C3384800C3707F /* Main.storyboard */; };
 		187E2B4224C3384800C3707F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187E2B4124C3384800C3707F /* Assets.xcassets */; };
 		187E2B4524C3384800C3707F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E2B4324C3384800C3707F /* LaunchScreen.storyboard */; };
+		187E2B4E24C3391000C3707F /* ZYVariousCellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B4C24C3391000C3707F /* ZYVariousCellsViewController.swift */; };
+		187E2B4F24C3391000C3707F /* ZYVariousCellsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E2B4D24C3391000C3707F /* ZYVariousCellsViewController.xib */; };
+		187E2B5824C33C5400C3707F /* ZYTypeOneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B5624C33C5400C3707F /* ZYTypeOneCell.swift */; };
+		187E2B5924C33C5400C3707F /* ZYTypeOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E2B5724C33C5400C3707F /* ZYTypeOneCell.xib */; };
+		187E2B5C24C33C6600C3707F /* ZYTypeTwoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B5A24C33C6600C3707F /* ZYTypeTwoCell.swift */; };
+		187E2B5D24C33C6600C3707F /* ZYTypeTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E2B5B24C33C6600C3707F /* ZYTypeTwoCell.xib */; };
+		187E2B6224C33C9000C3707F /* ZYTypeThreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B6024C33C9000C3707F /* ZYTypeThreeCell.swift */; };
+		187E2B6324C33C9000C3707F /* ZYTypeThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E2B6124C33C9000C3707F /* ZYTypeThreeCell.xib */; };
+		187E2B6524C33DC200C3707F /* ZYCellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B6424C33DC200C3707F /* ZYCellDataModel.swift */; };
+		187E2B6824C3F37D00C3707F /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B6724C3F37D00C3707F /* UITableView+Extension.swift */; };
+		187E2B6A24C3F39900C3707F /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B6924C3F39900C3707F /* NSObject+Extension.swift */; };
+		187E2B6C24C43B2500C3707F /* ZYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E2B6B24C43B2500C3707F /* ZYBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		187E2B4124C3384800C3707F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187E2B4424C3384800C3707F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187E2B4624C3384800C3707F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187E2B4C24C3391000C3707F /* ZYVariousCellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYVariousCellsViewController.swift; sourceTree = "<group>"; };
+		187E2B4D24C3391000C3707F /* ZYVariousCellsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYVariousCellsViewController.xib; sourceTree = "<group>"; };
+		187E2B5624C33C5400C3707F /* ZYTypeOneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTypeOneCell.swift; sourceTree = "<group>"; };
+		187E2B5724C33C5400C3707F /* ZYTypeOneCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYTypeOneCell.xib; sourceTree = "<group>"; };
+		187E2B5A24C33C6600C3707F /* ZYTypeTwoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTypeTwoCell.swift; sourceTree = "<group>"; };
+		187E2B5B24C33C6600C3707F /* ZYTypeTwoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYTypeTwoCell.xib; sourceTree = "<group>"; };
+		187E2B6024C33C9000C3707F /* ZYTypeThreeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYTypeThreeCell.swift; sourceTree = "<group>"; };
+		187E2B6124C33C9000C3707F /* ZYTypeThreeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZYTypeThreeCell.xib; sourceTree = "<group>"; };
+		187E2B6424C33DC200C3707F /* ZYCellDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYCellDataModel.swift; sourceTree = "<group>"; };
+		187E2B6724C3F37D00C3707F /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		187E2B6924C3F39900C3707F /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		187E2B6B24C43B2500C3707F /* ZYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +78,34 @@
 		187E2B3924C3384800C3707F /* ZYVariousCells */ = {
 			isa = PBXGroup;
 			children = (
+				187E2B6624C3F35A00C3707F /* extension */,
 				187E2B3A24C3384800C3707F /* AppDelegate.swift */,
+				187E2B6B24C43B2500C3707F /* ZYBaseViewController.swift */,
 				187E2B3C24C3384800C3707F /* ViewController.swift */,
+				187E2B4C24C3391000C3707F /* ZYVariousCellsViewController.swift */,
+				187E2B4D24C3391000C3707F /* ZYVariousCellsViewController.xib */,
+				187E2B5624C33C5400C3707F /* ZYTypeOneCell.swift */,
+				187E2B5724C33C5400C3707F /* ZYTypeOneCell.xib */,
+				187E2B5A24C33C6600C3707F /* ZYTypeTwoCell.swift */,
+				187E2B5B24C33C6600C3707F /* ZYTypeTwoCell.xib */,
+				187E2B6024C33C9000C3707F /* ZYTypeThreeCell.swift */,
+				187E2B6124C33C9000C3707F /* ZYTypeThreeCell.xib */,
+				187E2B6424C33DC200C3707F /* ZYCellDataModel.swift */,
 				187E2B3E24C3384800C3707F /* Main.storyboard */,
 				187E2B4124C3384800C3707F /* Assets.xcassets */,
 				187E2B4324C3384800C3707F /* LaunchScreen.storyboard */,
 				187E2B4624C3384800C3707F /* Info.plist */,
 			);
 			path = ZYVariousCells;
+			sourceTree = "<group>";
+		};
+		187E2B6624C3F35A00C3707F /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				187E2B6724C3F37D00C3707F /* UITableView+Extension.swift */,
+				187E2B6924C3F39900C3707F /* NSObject+Extension.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +169,11 @@
 			files = (
 				187E2B4524C3384800C3707F /* LaunchScreen.storyboard in Resources */,
 				187E2B4224C3384800C3707F /* Assets.xcassets in Resources */,
+				187E2B4F24C3391000C3707F /* ZYVariousCellsViewController.xib in Resources */,
+				187E2B5924C33C5400C3707F /* ZYTypeOneCell.xib in Resources */,
+				187E2B6324C33C9000C3707F /* ZYTypeThreeCell.xib in Resources */,
 				187E2B4024C3384800C3707F /* Main.storyboard in Resources */,
+				187E2B5D24C33C6600C3707F /* ZYTypeTwoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187E2B6C24C43B2500C3707F /* ZYBaseViewController.swift in Sources */,
+				187E2B4E24C3391000C3707F /* ZYVariousCellsViewController.swift in Sources */,
+				187E2B6824C3F37D00C3707F /* UITableView+Extension.swift in Sources */,
+				187E2B5C24C33C6600C3707F /* ZYTypeTwoCell.swift in Sources */,
 				187E2B3D24C3384800C3707F /* ViewController.swift in Sources */,
+				187E2B6A24C3F39900C3707F /* NSObject+Extension.swift in Sources */,
+				187E2B6224C33C9000C3707F /* ZYTypeThreeCell.swift in Sources */,
+				187E2B5824C33C5400C3707F /* ZYTypeOneCell.swift in Sources */,
+				187E2B6524C33DC200C3707F /* ZYCellDataModel.swift in Sources */,
 				187E2B3B24C3384800C3707F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
