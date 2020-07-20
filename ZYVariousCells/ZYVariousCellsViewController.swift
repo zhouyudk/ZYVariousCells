@@ -12,15 +12,20 @@ protocol ZYTableViewCellType {
     static func allRawValues() -> [String]
 }
 
-protocol ZYTableViewCell{
+protocol ZYTableViewCell: NSObjectProtocol{
     func bindCellModel(_ model: ZYVariousCellDataModel)
 }
 
-protocol ZYViewControllerWithTable {
+protocol ZYTableViewCellRegisterDelegate {
     weak var tableView: UITableView! { get set}
+    func tableViewCellNibClasses() -> [ZYTableViewCell.Type]
 }
 
-class ZYVariousCellsViewController: ZYBaseViewController, ZYViewControllerWithTable {
+protocol ZYVariousCellDataModel {
+    var cellType: ZYTableViewCell.Type{ get }
+}
+
+class ZYVariousCellsViewController: ZYBaseViewController, ZYTableViewCellRegisterDelegate {
     ///使用Cell的 classname作为枚举值的rawValue,实现ZYTableViewCellType
     enum VariousCellType: String, ZYTableViewCellType {
         case typeOne = "ZYTypeOneCell"

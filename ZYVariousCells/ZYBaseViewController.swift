@@ -12,19 +12,12 @@ class ZYBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initView()
-//        registerTableCell(<#T##types: [String]##[String]#>)
+        if let vc = self as? ZYTableViewCellRegisterDelegate  {
+            vc.tableView.registerNibCellWithClasses(vc.tableViewCellNibClasses() as! [UITableViewCell.Type])
+        }
     }
     
     func initView() {
         fatalError("重写initView，别调用super.initView")
     }
-    
-    func registerTableCell(_ types: [String]) {
-        if let vc = self as? ZYViewControllerWithTable {
-            vc.tableView.registerNibCellWithClassNames(types)
-        }
-    }
-    
-    
-    
 }

@@ -9,10 +9,6 @@
 import UIKit
 
 
-protocol ZYVariousCellDataModel {
-    var cellType: ZYTableViewCell.Type{ get }
-}
-
 class ZYCellOneModel: ZYVariousCellDataModel {
     var cellType: ZYTableViewCell.Type = ZYTypeOneCell.self
 }

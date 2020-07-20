@@ -9,15 +9,15 @@
 import UIKit
 
 extension UITableView {
-    func registerNibCellWithClassNames(_ names: [String]) {
-        names.forEach { (n) in
-            self.register(UINib.init(nibName: n, bundle: nil), forCellReuseIdentifier: n)
+    func registerNibCellWithClasses(_ classes: [ZYTableViewCell.Type]) {
+        classes.forEach { (c) in
+            self.register(UINib.init(nibName: c.className, bundle: nil), forCellReuseIdentifier: c.className)
         }
     }
     
-    func registerNibHeaderFooterWithClassNames(_ names: [String]) {
-        names.forEach { (n) in
-            self.register(UINib.init(nibName: n, bundle: nil), forHeaderFooterViewReuseIdentifier: n)
+    func registerNibHeaderFooterWithClasses(_ classes: [UITableViewHeaderFooterView.Type]) {
+        classes.forEach { (c) in
+            self.register(UINib.init(nibName: c.className, bundle: nil), forHeaderFooterViewReuseIdentifier: c.className)
         }
     }
 }
