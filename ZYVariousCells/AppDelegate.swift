@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  ZYVariousCells
+//   VariousCells
 //
 //  Created by XQ on 2020/7/18.
-//  Copyright © 2020年 ZY. All rights reserved.
+//  Copyright © 2020年  . All rights reserved.
 //
 
 import UIKit

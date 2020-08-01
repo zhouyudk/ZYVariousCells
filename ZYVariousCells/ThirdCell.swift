@@ -1,19 +1,14 @@
 //
-//  ZYTypeTwoCell.swift
-//  ZYVariousCells
+//   TypeThreeCell.swift
+//   VariousCells
 //
 //  Created by XQ on 2020/7/18.
-//  Copyright © 2020年 ZY. All rights reserved.
+//  Copyright © 2020年  . All rights reserved.
 //
 
 import UIKit
 
-class ZYTypeTwoCell: UITableViewCell, ZYTableViewCell {
-    func bindCellModel(_ model: ZYVariousCellDataModel) {
-        
-    }
-    
-
+class  ThirdCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

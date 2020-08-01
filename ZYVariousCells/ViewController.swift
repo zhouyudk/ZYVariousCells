@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  ZYVariousCells
+//   VariousCells
 //
 //  Created by XQ on 2020/7/18.
-//  Copyright © 2020年 ZY. All rights reserved.
+//  Copyright © 2020年  . All rights reserved.
 //
 
 import UIKit
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func onClickToTableButton(_ sender: UIButton) {
-        self.navigationController?.pushViewController(ZYVariousCellsViewController(), animated: true)
+        self.navigationController?.pushViewController( VariousCellsViewController(), animated: true)
     }
 
 

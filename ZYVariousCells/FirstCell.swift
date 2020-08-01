@@ -1,14 +1,14 @@
 //
-//  ZYTypeOneCell.swift
-//  ZYVariousCells
+//   TypeOneCell.swift
+//   VariousCells
 //
 //  Created by XQ on 2020/7/18.
-//  Copyright © 2020年 ZY. All rights reserved.
+//  Copyright © 2020年  . All rights reserved.
 //
 
 import UIKit
 
-class ZYTypeOneCell: UITableViewCell, ZYTableViewCell {
+class  FirstCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -19,10 +19,6 @@ class ZYTypeOneCell: UITableViewCell, ZYTableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
-    }
-    
-    func bindCellModel(_ model: ZYVariousCellDataModel) {
-        
     }
     
 }

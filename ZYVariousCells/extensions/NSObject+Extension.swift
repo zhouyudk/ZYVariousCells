@@ -1,9 +1,9 @@
 //
 //  NSObject+Extension.swift
-//  ZYVariousCells
+//   VariousCells
 //
 //  Created by XQ on 2020/7/19.
-//  Copyright © 2020年 ZY. All rights reserved.
+//  Copyright © 2020年  . All rights reserved.
 //
 
 import Foundation
